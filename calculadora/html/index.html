@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluladora iphone</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <main>
+
+        <section class="grid">
+            <div>
+                <div class="input-div">
+                    <p>0</p>
+                </div>
+
+                <div class="buttons-div">
+                    <div class="div-button">
+                        <button class="cinza" onclick="clearDisplay">AC</button>
+                        <button class="cinza" onclick="input('+/-')">+/-</button>
+                        <button class="cinza" onclick="input('%')">%</button>
+                        <button class="amarelo" onclick="input('/')">/</button>
+                    </div>
+
+
+
+                    <div class="div-button">
+                        <button class="preto" onclick="input('7')">7</button>
+                        <button class="preto" onclick="input('8')">8</button>
+                        <button class="preto" onclick="input('9')">9</button>
+                        <button class="amarelo" onclick="input('*')">*</button>
+                    </div>
+
+                    <div class="div-button">
+                        <button class="preto" onclick="input('4')">4</button>
+                        <button class="preto" onclick="input('5')">5</button>
+                        <button class="preto" onclick="input('6')">6</button>
+                        <button class="amarelo" onclick="input('-')">-</button>
+                    </div>
+
+                    <div class="div-button">
+                        <button class="preto" onclick="input('1')">1</button>
+                        <button class="preto" onclick="input('2')">2</button>
+                        <button class="preto" onclick="input('3')">3</button>
+                        <button class="amarelo" onclick="input('+')">+</button>
+                    </div>
+
+                    <div class="div-button">
+                        <button class="preto zero" onclick="input('0')">0</button>
+                        <button class="preto" onclick="input('.')">.</button>
+                        <button class="amarelo" onclick="input('=')">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
